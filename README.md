@@ -1,15 +1,17 @@
-# Basic Sample Hardhat Project
+> ICO Launchpad
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+>Technology Stack & Tools
+  Solidity (Writing Smart Contract)
+  Javascript (React & Testing)
+  Ethers (Blockchain Interaction)
+  Hardhat (Development Framework)
 
-Try running some of the following tasks:
-
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+>Requirements For Initial Setup
+  Install NodeJS, should work with any node version below 16.5.0
+  Install Hardhat.
+  Install Ethers
+  
+>Setting Up
+  1. Clone/Download the Repository
+  2. Install Dependencies:
+  $ npm install
