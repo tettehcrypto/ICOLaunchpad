@@ -8,7 +8,7 @@ import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
 contract ICO is ERC20, Ownable, ReentrancyGuard {
     
     // Sample constructor
-    constructor(uint256 tokenAmount) ERC20("BasicCoin", "BSC") {
+    constructor(uint256 tokenAmount) ERC20("ICOToken", "ICO") {
       _mint(_msgSender(), tokenAmount*(10**uint256(decimals())));
     }
 
